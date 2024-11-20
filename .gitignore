@@ -1,0 +1,78 @@
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global merge.tool.keepBackup false
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Python ###
+__pycache__
+.venv/
+.pytest_cache
+*.pyc
+
+### Terraform ###
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+### Environment Files ###
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.pemkey
+
+### Logs ###
+pipeline.log
+invalid_events.log
+*.log
+
+### Data Files ###
+*.csv
+*.json
+/data
+
+### Testing ###
+/coverage
+.coverage
+
+### Production ###
+/build
